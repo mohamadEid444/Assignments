@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity2">
+
+    <TableRow
+        style="@style/rowMargin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/views2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fav">
+
+        </TextView>
+
+        <Spinner
+            android:id="@+id/spinner"
+            style="@style/views2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            >
+
+        </Spinner>
+
+    </TableRow>
+
+    <TableRow
+        style="@style/rowMargin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/views2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/num">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/edtNum"
+            style="@style/views2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number">
+
+        </EditText>
+
+    </TableRow>
+
+    <TableRow
+        style="@style/rowMargin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/views2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/country">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/edtCountry"
+            style="@style/views2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </EditText>
+
+
+    </TableRow>
+
+    <TableRow
+        style="@style/rowMargin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnSave"
+            style="@style/views2"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:onClick="btnSaveClick"
+            android:text="Save"
+            android:textColor="@color/white">
+
+        </Button>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            style="@style/views2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Teams Logo"
+            android:textSize="15pt"
+            >
+
+        </TextView>
+
+    </TableRow>
+
+    <TableRow
+        style="@style/rowMargin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnStartShow"
+            style="@style/views2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btnStartClick"
+            android:text="Start"
+            android:textColor="@color/white">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btnStopShow"
+            style="@style/views2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btnStopClick"
+            android:text="Stop"
+            android:textColor="@color/white">
+
+        </Button>
+
+    </TableRow>
+
+    <TableRow
+        style="@style/rowMargin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/img1"
+            style="@style/imgSize"
+            android:scaleType="fitCenter"
+            android:src="@drawable/fcb">
+
+        </ImageView>
+
+
+    </TableRow>
+    <TableRow
+        style="@style/rowMargin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/img2"
+            style="@style/imgSize"
+            android:visibility="gone"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ah">
+
+        </ImageView>
+
+
+    </TableRow>
+    <TableRow
+        style="@style/rowMargin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/img3"
+            style="@style/imgSize"
+            android:visibility="gone"
+            android:scaleType="fitCenter"
+            android:src="@drawable/mu">
+
+        </ImageView>
+
+
+    </TableRow>
+
+    <TableRow
+        style="@style/rowMargin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/img4"
+            android:visibility="gone"
+            style="@style/imgSize"
+            android:scaleType="fitCenter"
+            android:src="@drawable/rm">
+
+        </ImageView>
+
+
+    </TableRow>
+
+
+
+
+
+</TableLayout>

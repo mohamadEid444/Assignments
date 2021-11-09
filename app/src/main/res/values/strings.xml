@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Assignment1</string>
+    <string name="fav">What is your favorite Football team ?</string>
+    <string name="num">Number Of Trophies</string>
+    <string name="country">Country</string>
+    <string name="info">
+        Football is a family of team sports that involve, to varying degrees, kicking a ball to score a goal.
+    </string>
+
+</resources>
