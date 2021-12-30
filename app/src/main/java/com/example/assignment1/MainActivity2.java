@@ -31,7 +31,7 @@ public class MainActivity2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+       super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
         spin = findViewById(R.id.spinner);
         edtNum = findViewById(R.id.edtNum);
@@ -71,7 +71,10 @@ public class MainActivity2 extends AppCompatActivity {
            }
        });
     }
+    public void onSaveInstanceState(Bundle outState){
+        super.onSaveInstanceState(outState);
 
+    }
     public void populateSpinner() {
         TeamModel tm = new TeamModel();
         TeamInterface ti = tm.getModel();
@@ -79,6 +82,7 @@ public class MainActivity2 extends AppCompatActivity {
 
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this,
                 android.R.layout.simple_spinner_item, teams);
+
         spin.setAdapter(adapter);
     }
 
