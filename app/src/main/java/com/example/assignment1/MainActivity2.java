@@ -28,7 +28,7 @@ public class MainActivity2 extends AppCompatActivity {
     private EditText edtNum;
     private EditText edtCountry;
     private boolean running = false;
-
+        private int hacker;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
        super.onCreate(savedInstanceState);
